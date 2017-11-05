@@ -164,6 +164,7 @@ public class KurdishCalendar extends GregorianCalendar {
 		int month = (int) (KurdishRowDate & 0xff00) >> 8;
 		int day = (int) (KurdishRowDate & 0xff);
 		this.kurdishYear = (int) (year > 0 ? year : year - 1);
+		this.kurdishYear += 1321;
 		this.kurdishMonth = month;
 		this.kurdishDay = day;
 	}
