@@ -1,15 +1,24 @@
 # MaterialKurdishDateTimePicker
 This library offers a hijri/shamsi (Iran Calendar) Date Picker and a normal time picker designed on Google's Material Design Principals For Pickers for Android 4.0.3 (API 15) +.
 
+
+
 Date Picker	Time Picker
 Date Picker	Time Picker
-You can report any issue on issues page. Note: If you speak Kurdish, you can submit issues with Kurdish (Farsi) language and I will check them. :)
+You can report any issue on issues page. Note: If you speak Kurdish, you can submit issues with Kurdish  language and I will check them. :)
 
 #Importing Please refer to the relative wiki page.
 
-Usage
+repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+   }
+   dependencies {
+         compile 'com.github.muhammadzadeh:MaterialKurdishDateTimePicker:1.0.1'
+   }
 
-The library follows the same API as other pickers in the Android framework. After adding the library, for using a picker in your project you need to:
+Usage
+need to:
 
 Implement an OnTimeSetListener/OnDateSetListener
 Create a TimePickerDialog/DatePickerDialog using the supplied factory
