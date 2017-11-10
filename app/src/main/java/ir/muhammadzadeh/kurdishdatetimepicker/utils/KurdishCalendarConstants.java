@@ -18,12 +18,7 @@
  */
 package ir.muhammadzadeh.kurdishdatetimepicker.utils;
 
-/**
- * 
- * @author Morteza contact: <a
- *         href="mailto:Mortezaadi@gmail.com">Mortezaadi@gmail.com</a>
- * @version 1.0
- */
+
 public class KurdishCalendarConstants {
 
 	// 00:00:00 UTC (Gregorian) Julian day 0,

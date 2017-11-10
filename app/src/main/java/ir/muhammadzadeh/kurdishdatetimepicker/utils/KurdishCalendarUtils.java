@@ -18,18 +18,7 @@
  */
 package ir.muhammadzadeh.kurdishdatetimepicker.utils;
 
-/**
- * algorithms for converting Julian days to the Persian calendar, and vice versa
- * are adopted from <a
- * href="casema.nl/couprie/calmath/kurdish/index.html">couprie.nl</a> written in
- * VB. The algorithms is not exactly the same as its original. I've done some
- * minor changes in the sake of performances and corrected some bugs.
- * 
- * @author Morteza contact: <a
- *         href="mailto:Mortezaadi@gmail.com">Mortezaadi@gmail.com</a>
- * @version 1.0
- * 
- */
+
 public class KurdishCalendarUtils {
 
 	/**

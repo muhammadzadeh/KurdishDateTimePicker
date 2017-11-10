@@ -18,27 +18,7 @@
  */
 package ir.muhammadzadeh.kurdishdatetimepicker.utils;
 
-/**
- * Parses text from the beginning of the given string to produce a
- * KurdishCalendar.
- * 
- * <p>
- * See the {@link #getKurdishDate()} method for more information on date
- * parsing.
- * 
- * <pre>
- *                Example
- *                     
- *  {@code
- *    KurdishCalendar pCal =
- *     new KurdishDateParser("1361/3/1").getKurdishDate();
- *  }
- * </pre>
- * 
- * @author Morteza contact: <a
- *         href="mailto:Mortezaadi@gmail.com">Mortezaadi@gmail.com</a>
- * @version 1.0
- */
+
 public class KurdishDateParser {
 
 	private String dateString;
