@@ -28,8 +28,8 @@ import android.graphics.Paint;
 import android.util.Log;
 import android.view.View;
 
-import com.mohamadamin.persianmaterialdatetimepicker.R;
-import com.mohamadamin.persianmaterialdatetimepicker.Utils;
+import ir.muhammadzadeh.kurdishdatetimepicker.R;
+import ir.muhammadzadeh.kurdishdatetimepicker.Utils;
 
 /**
  * View to show what number is selected. This will draw a blue circle over the number, with a blue
