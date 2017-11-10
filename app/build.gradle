@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 
 ext {
-    bintrayRepo = 'maven'
+    bintrayRepo = 'MaterialKurdishDateTimePicker'
     bintrayName = 'MaterialKurdishDateTimePicker'
 
     publishedGroupId = 'com.github.muhammadzadeh'
